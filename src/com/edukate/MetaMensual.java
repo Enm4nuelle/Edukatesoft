@@ -1,23 +1,24 @@
 package com.edukate;
+import java.util.date;
 
 public class MetaMensual {
-    private date fechaInicio;
-    private date fechaLimite;
+    private Date fechaInicio;
+    private Date fechaLimite;
     private float cantObjetivo;
 
-    public date getFechaInicio() {
+    public Date getFechaInicio() {
         return fechaInicio;
     }
 
-    public void setFechaInicio(date fechaInicio) {
+    public void setFechaInicio(Date fechaInicio) {
         this.fechaInicio = fechaInicio;
     }
 
-    public date getFechaLimite() {
+    public Date getFechaLimite() {
         return fechaLimite;
     }
 
-    public void setFechaLimite(date fechaLimite) {
+    public void setFechaLimite(Date fechaLimite) {
         this.fechaLimite = fechaLimite;
     }
 
