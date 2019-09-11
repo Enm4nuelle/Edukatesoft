@@ -1,5 +1,5 @@
 package com.edukate;
-import java.util.date;
+import java.util.Date;
 
 public class MetaMensual {
     private Date fechaInicio;
