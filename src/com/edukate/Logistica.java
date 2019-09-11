@@ -1,6 +1,6 @@
 package com.edukate;
 import java.util.ArrayList;
-public class Logistica {
+public class Logistica extends Empleado {
     private ArrayList<Solicitud> solicitudes;
     public Logistica(){}
     public Logistica(String nombre, String apellidos, String dni, int edad, String telefono, String direccion, String correo,
@@ -16,7 +16,8 @@ public class Logistica {
     @Override
     public float calcularSueldo(){}
     public String obtenerListaSolicitudesSinStock(){}
-    public String aumentarStock(){}
+    public void crearProdcuto(){}
+    public void modificarProducto(int stock){}
 
 
 

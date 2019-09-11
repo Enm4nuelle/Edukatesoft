@@ -1,6 +1,6 @@
 package com.edukate;
 import java.util.ArrayList;
-public class Facturador {
+public class Facturador extends Empleado{
     private ArrayList<Solicitud> solicitudes;
     public Facturador(){}
     public Facturador(String nombre, String apellidos, String dni, int edad, String telefono, String direccion, String correo,
@@ -15,6 +15,8 @@ public class Facturador {
     }
     @Override
     public float calcularSueldo(){}
-    public void actualizarStock(){}
-    public void actualizarEstadoPedido(){}
+    public void actualizarStock(Producto prod){}
+    public String registrarPago(){}
+    public void consultarProductosFaltantes(Pedido ped){}
+
 }
