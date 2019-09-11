@@ -7,6 +7,8 @@ public class Departamento {
 	private String idDep;
 	private ArrayList<Provincia> provincias;
 
+	public Departamento(){}
+
 	public String getNombre() {
 		return nombre;
 	}
