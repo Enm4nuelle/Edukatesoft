@@ -13,6 +13,7 @@ public abstract class Empleado{
 	private char estadoCivil;
 	private float sueldo;
 	private Usuario user;
+	private Area area;
 	public Empleado(){}
 	public Empleado(String nombre, String apellidos, String dni, int edad, String telefono, String direccion, String correo, 
 					char estadoCivil, float sueldo){}
@@ -81,6 +82,14 @@ public abstract class Empleado{
 	}
 	public void setUser(Usuario user){
 		this.user = user;
+	}
+
+	public Area getArea() {
+		return area;
+	}
+
+	public void setArea(Area area) {
+		this.area = area;
 	}
 
 	public abstract float calcularSueldo();
