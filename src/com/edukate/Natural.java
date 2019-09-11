@@ -1,8 +1,9 @@
 package com.edukate;
 
-public class Natural {
+public class Natural extends Cliente {
     private String nombreCliente;
     private String DNI;
+    private Juridico juridico;
 
     public String getNombreCliente() {
         return nombreCliente;
