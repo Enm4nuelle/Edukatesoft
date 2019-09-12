@@ -13,9 +13,9 @@ public class Logistica extends Empleado {
     public void setSolicitudes(ArrayList<Solicitud> solicitudes) {
         this.solicitudes = solicitudes;
     }
-    @Override
-    public float calcularSueldo(){}
-    public String obtenerListaSolicitudesSinStock(){}
+    //@Override
+    //public float calcularSueldo(){}
+    //public String obtenerListaSolicitudesSinStock(){}
     public void crearProdcuto(){}
     public void modificarProducto(int stock){}
 

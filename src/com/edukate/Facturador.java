@@ -13,10 +13,10 @@ public class Facturador extends Empleado{
     public void setSolicitudes(ArrayList<Solicitud> solicitudes) {
         this.solicitudes = solicitudes;
     }
-    @Override
-    public float calcularSueldo(){}
+    //@Override
+    //public float calcularSueldo(){}
     public void actualizarStock(Producto prod){}
-    public String registrarPago(){}
+    public void registrarPago(){}
     public void consultarProductosFaltantes(Pedido ped){}
 
 }

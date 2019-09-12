@@ -11,13 +11,13 @@ public class LineaSolicitud {
         this.id = id;
         this.cantidad = cantidad;
     }
-    public String getId() {
+    public int getId() {
         return id;
     }
     public void setId(int id){
         this.id = id;
     }
-    public String getCantidad() {
+    public int getCantidad() {
         return cantidad;
     }
     public void setCantidad(int cantidad){

@@ -23,7 +23,7 @@ public class Vendedor extends Empleado{
 		this.objetivos = objetivos;
 	}
 
-	public String mostrarCatalogoProductos(){}
-	@Override
-	public float calcularMostrarSueldo(){}
+	//public String mostrarCatalogoProductos(){}
+	//@Override
+	//public float calcularMostrarSueldo(){}
 }

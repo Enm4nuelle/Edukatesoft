@@ -31,7 +31,7 @@ public class Solicitud {
         this.lineasSolicitud = lineasSolicitud;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
     public void setId(int id){
@@ -43,7 +43,7 @@ public class Solicitud {
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
-    public String getEstado() {
+    public int getEstado() {
         return estado;
     }
     public void setEstado(int estado){

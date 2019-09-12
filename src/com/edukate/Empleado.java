@@ -92,6 +92,6 @@ public abstract class Empleado{
 		this.area = area;
 	}
 
-	public abstract float calcularSueldo();
+	//public abstract float calcularSueldo();
 	
 }
